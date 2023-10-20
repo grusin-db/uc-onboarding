@@ -1,0 +1,18 @@
+[
+  {
+    "enabled": false,
+    "name": "team02_dev_managed_adls",
+    "adls_gen2_resource_uri": "...",
+    "storage_credential_name": "team02_dev_man_mi",
+    "comment": "by default newly created tables will be stored here",
+    "role_owner": "uc-metastore-playground-admin"
+  },
+  {
+    "enabled": false,
+    "name": "team02_dev_external_adls",
+    "adls_gen2_resource_uri": "...",
+    "storage_credential_name": "team02_dev_ext_mi",
+    "comment": "existing exernal delta tables as stored here",
+    "role_owner": "team02-admin"
+  }
+]

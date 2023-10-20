@@ -1,0 +1,8 @@
+[
+  {
+    "enabled": true,
+    "workspace_resource_id": "/subscriptions/e54189ca-0061-4994-a1ae-c82d189a0b0e/resourceGroups/ucadmin-dev/providers/Microsoft.Databricks/workspaces/dbr-admin-dev",
+    "workspace_id": 4268439925538419,
+    "role_admin": "uc-metastore-playground-admin"
+  }
+]

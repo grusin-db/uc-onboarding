@@ -1,0 +1,48 @@
+{
+  "type": "array",
+  "items": {
+    "type" : "object",
+    "properties" : {
+      "enabled" : { 
+        "type": "boolean"
+      },
+      "name": { 
+        "type": "string" 
+      },
+      "name_short": { 
+        "type": "string" 
+      },
+      "admin_databricks_resource_id": { 
+        "type": "string",
+        "pattern": "(?i)subscriptions/(.+)/resourceGroups/(.+)/providers/Microsoft.Databricks/workspaces/(.+)" 
+      },
+      "admin_databricks_worskapce_url": {
+        "type": "string"
+      },
+      "metastore_name": { 
+        "type": "string" 
+      },
+      "databricks_account_id": {
+        "type": "string"
+      },
+      "tf_state_subscription_id": { 
+        "type": "string" 
+      },
+      "tf_state_resource_group_name": { 
+        "type": "string" 
+      },
+      "tf_state_storage_account_name": { 
+        "type": "string" 
+      },
+      "tf_state_container_name": { 
+        "type": "string" 
+      },
+      "tf_state_key": { 
+        "type": "string" 
+      }
+    },
+    "required": [ "enabled", "name", "name_short", "admin_databricks_resource_id", "admin_databricks_worskapce_url", "metastore_name", "databricks_account_id", "tf_state_subscription_id", "tf_state_resource_group_name", "tf_state_storage_account_name", "tf_state_container_name", "tf_state_key" ],
+    "additionalProperties": false
+  },
+  "minItems": 0
+}

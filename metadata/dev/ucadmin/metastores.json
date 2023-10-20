@@ -1,0 +1,11 @@
+[
+  {
+    "enabled": true,
+    "name": "playground",
+    "region": "westeurope",
+    "adls_gen2_path": "abfss://data@ucadminplaygrounddev.blob.core.windows.net/",
+    "access_connector_id": "/subscriptions/e54189ca-0061-4994-a1ae-c82d189a0b0e/resourceGroups/ucadmin-dev/providers/Microsoft.Databricks/accessConnectors/uc-metastore-playground-dev",
+    "comment": "playground metastore",
+    "role_owner": "uc-metastore-playground-admin"
+  }
+]

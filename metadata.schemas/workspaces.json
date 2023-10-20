@@ -1,0 +1,33 @@
+{
+  "type": "array",
+  "items": {
+    "type" : "object",
+    "properties" : {
+      "enabled" : { 
+        "type": "boolean"
+      },
+      "workspace_resource_id": { 
+        "type": "string",
+        "pattern": "(?i)subscriptions/(.+)/resourceGroups/(.+)/providers/Microsoft.Databricks/workspaces/(.+)"
+      },
+      "workspace_id": { 
+        "type": "integer"
+      },
+      "role_admin": { 
+        "type": "string" 
+      },
+      "account_groups": {
+        "type": "array"
+        ,"items": { 
+          "type": "string"
+        }
+      },
+      "default_catalog_name": {
+        "type": "string"
+      }
+    },
+    "required": [ "enabled", "workspace_resource_id", "workspace_id", "role_admin" ],
+    "additionalProperties": false
+  },
+  "minItems": 0
+}

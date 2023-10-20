@@ -1,0 +1,13 @@
+[
+  {
+    "enabled": false,
+    "workspace_resource_id": "/subscriptions/xxxx/resourceGroups/xxx/providers/Microsoft.Databricks/workspaces/xxx",
+    "workspace_id": 0,
+    "role_admin": "team02-admin",
+    "account_groups": [
+      "team02-admin"
+      ,"team02-eng"
+    ],
+    "default_catalog_name": "team02_dev"
+  }
+]

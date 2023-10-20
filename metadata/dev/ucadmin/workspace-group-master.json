@@ -1,0 +1,10 @@
+[
+  {
+    "enabled": true,
+    "aad_group_name": "uc-metastore-playground-admin"
+  },
+  {
+    "enabled": true,
+    "aad_group_name": "uc-account-admin"
+  }
+]

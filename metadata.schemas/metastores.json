@@ -1,0 +1,32 @@
+{
+  "type": "array",
+  "items": {
+    "type" : "object",
+    "properties" : {
+      "enabled" : { 
+        "type": "boolean"
+      },
+      "name": { 
+        "type": "string" 
+      },
+      "region": { 
+        "type": "string" 
+      },
+      "adls_gen2_path": { 
+        "type": "string" 
+      },
+      "access_connector_id": { 
+        "type": "string"
+      },
+      "comment": { 
+        "type": "string" 
+      },
+      "role_owner": { 
+        "type": "string" 
+      }
+    },
+    "required": [ "enabled", "name", "region", "adls_gen2_path", "access_connector_id", "comment", "role_owner" ],
+    "additionalProperties": false
+  },
+  "minItems": 0
+}

@@ -1,0 +1,17 @@
+{
+  "type": "array",
+  "items": {
+    "type" : "object",
+    "properties" : {
+      "enabled" : { 
+        "type": "boolean"
+      },
+      "aad_group_name": { 
+        "type": "string" 
+      }
+    },
+    "required": [ "enabled", "aad_group_name" ],
+    "additionalProperties": false
+  },
+  "minItems": 0
+}

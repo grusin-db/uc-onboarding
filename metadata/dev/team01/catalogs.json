@@ -1,0 +1,12 @@
+[
+  {
+    "enabled": true,
+    "name": "team01_dev",
+    "storage_location_name": "team01_dev_managed_adls",
+    "comment": "team01 team's catalog",
+    "role_owner": "uc-metastore-playground-admin",
+    "grants": {
+      "team01-admin": [ "ALL_PRIVILEGES" ]
+    }
+  }
+]
