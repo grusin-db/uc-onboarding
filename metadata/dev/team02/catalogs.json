@@ -1,0 +1,9 @@
+[
+  {
+    "enabled": false,
+    "name": "team02_dev",
+    "storage_location_name": "team02_dev_managed_adls",
+    "comment": "team02 team's catalog",
+    "role_owner": "team02-admin"
+  }
+]

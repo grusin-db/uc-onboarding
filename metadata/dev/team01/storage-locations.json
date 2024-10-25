@@ -1,0 +1,21 @@
+[
+  {
+    "enabled": true,
+    "name": "team01_dev_managed_adls",
+    "adls_gen2_resource_uri": "abfss://managed@team01ucmanageddev.dfs.core.windows.net/",
+    "storage_credential_name": "team01_dev_man_mi",
+    "comment": "by default newly created tables will be stored here",
+    "role_owner": "uc-metastore-playground-admin"
+  },
+  {
+    "enabled": true,
+    "name": "team01_dev_external_adls",
+    "adls_gen2_resource_uri": "abfss://datalake@team01datalakedev.dfs.core.windows.net/",
+    "storage_credential_name": "team01_dev_ext_mi",
+    "comment": "existing exernal delta tables as stored here",
+    "role_owner": "uc-metastore-playground-admin",
+    "grants": {
+      "team01-eng": [ "CREATE_EXTERNAL_TABLE", "CREATE_EXTERNAL_VOLUME", "READ_FILES", "WRITE_FILES" ]
+    }
+  }
+]

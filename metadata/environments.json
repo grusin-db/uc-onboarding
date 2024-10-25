@@ -1,0 +1,16 @@
+[
+  {
+    "enabled": true
+    ,"name": "dev"
+    ,"name_short": "d"
+    ,"admin_databricks_resource_id": "/subscriptions/e54189ca-0061-4994-a1ae-c82d189a0b0e/resourceGroups/ucadmin-dev/providers/Microsoft.Databricks/workspaces/dbr-admin-dev"
+    ,"admin_databricks_worskapce_url": "https://adb-4268439925538419.19.azuredatabricks.net"
+    ,"metastore_name": "playground"
+    ,"databricks_account_id": "c3d0c960-58a1-4b23-b7f5-de6ca6fc1e2b"
+    ,"tf_state_subscription_id": "e54189ca-0061-4994-a1ae-c82d189a0b0e"
+    ,"tf_state_resource_group_name": "playground"
+    ,"tf_state_storage_account_name": "ucadmintfstatedev"
+    ,"tf_state_container_name": "tfstate"
+    ,"tf_state_key": "playground_dev.tfstate"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "type": "array",
+  "items": {
+    "type" : "object",
+    "properties" : {
+      "enabled" : { 
+        "type": "boolean"
+      },
+      "name": { 
+        "type": "string" 
+      },
+      "adls_gen2_resource_uri": { 
+        "type": "string" 
+      },
+      "storage_credential_name": { 
+        "type": "string" 
+      },
+      "comment": { 
+        "type": "string" 
+      },
+      "role_owner": { 
+        "type": "string" 
+      },
+      "grants": { 
+        "type" : "object",
+        "patternProperties": {
+          ".*": { 
+            "type": "array",
+            "items": { 
+              "type": "string" 
+            }   
+          }  
+        }
+      }
+    },
+    "required": [ "enabled", "name", "adls_gen2_resource_uri", "storage_credential_name", "comment", "role_owner" ],
+    "additionalProperties": false
+  },
+  "minItems": 0
+}
